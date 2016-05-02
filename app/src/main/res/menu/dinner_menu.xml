@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_ingredients"
+        app:showAsAction="ifRoom|withText"
+        android:title="Add to shopping list"
+        android:visible="true"/>
+    <item
+        android:id="@+id/edit_dinner"
+        app:showAsAction="ifRoom|withText"
+        android:title="Edit dinner"
+        android:visible="true"/>
+</menu>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.sigurd.groceries.MainActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:minHeight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <!--android:foregroundGravity="fill_horizontal|fill_vertical">-->
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f1ffe5"
+            android:id="@+id/groceryGrid"
+            android:columnCount="2"></GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
